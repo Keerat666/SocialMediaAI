@@ -1,42 +1,27 @@
-# Material UI - Create React App example
+# Social Media AI Kit
 
-## How to use
+The Social Media AI Kit is a tool designed to generate engaging content for various social media platforms using OpenAI's GPT-3.5-turbo model. This project leverages Azure OpenAI Service to create content tailored for blogs, LinkedIn posts, and Instagram captions based on user prompts.
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
+## Features
 
-<!-- #default-branch-switch -->
+- Blog Writing: Generate concise 200-word blogs on given topics.
+- LinkedIn Posts: Create professional LinkedIn posts with relevant hashtags.
+- Instagram Captions: Craft catchy Instagram captions with appropriate hashtags.
 
-```bash
-curl https://codeload.github.com/mui/material-ui/tar.gz/v6.x | tar -xz --strip=2 material-ui-v6.x/examples/material-ui-cra
-cd material-ui-cra
-```
+## Getting Started
 
-Install it and run:
+To get started with the Social Media AI Kit, follow these steps:
 
-```bash
-npm install
-npm start
-```
+1. Clone this repository to your local machine.
+2. Install the required dependencies by running `npm install`.
+3. Configure your API keys for the AI services in the env file with the name as REACT_APP_AZURE_OPENAI_API_KEY.
+4. Run the application using `npm start`.
+5. Access the application in your browser at `http://localhost:3000`.
 
-or:
+## Contributing
 
-<!-- #default-branch-switch -->
+We welcome contributions from the open-source community. If you have any ideas, bug reports, or feature requests, please submit them through the GitHub issue tracker.
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/mui/material-ui/tree/v6.x/examples/material-ui-cra)
+## License
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/v6.x/examples/material-ui-cra)
-
-## The idea behind the example
-
-<!-- #default-branch-switch -->
-
-This example demonstrates how you can use [Create React App](https://github.com/facebookincubator/create-react-app) with Material UI.
-It includes `@mui/material` and its peer dependencies, including [Emotion](https://emotion.sh/docs/introduction), the default style engine in Material UI v6.
-If you prefer, you can [use styled-components instead](https://mui.com/material-ui/integrations/interoperability/#styled-components).
-
-## What's next?
-
-<!-- #default-branch-switch -->
-
-You now have a working example project.
-You can head back to the documentation and continue by browsing the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
