@@ -12,6 +12,8 @@
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/material": "latest",
+    "dotenv": "^16.4.7",
+    "openai": "^4.83.0",
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest"
